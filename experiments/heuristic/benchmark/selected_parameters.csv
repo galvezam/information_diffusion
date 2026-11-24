@@ -1,0 +1,3 @@
+model,parameter,step_hours,fit_rmse
+IC,0.03,12,74.3342171098434
+LT,1.0,6,35.840119512449554

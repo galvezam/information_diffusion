@@ -1,0 +1,21 @@
+model,fraction_of_sample,first_hour,at_initialization
+Observed,0.02,40.0,False
+Observed,0.1,77.0,False
+Observed,0.2,79.0,False
+Observed,0.5,111.0,False
+IC,0.02,48.0,False
+IC,0.1,72.0,False
+IC,0.2,84.0,False
+IC,0.5,,False
+LT,0.02,36.0,False
+LT,0.1,102.0,False
+LT,0.2,,False
+LT,0.5,,False
+No growth,0.02,,False
+No growth,0.1,,False
+No growth,0.2,,False
+No growth,0.5,,False
+Linear trend,0.02,31.0,False
+Linear trend,0.1,81.0,False
+Linear trend,0.2,143.0,False
+Linear trend,0.5,,False

@@ -1,0 +1,39 @@
+{
+  "config": {
+    "n_nodes": 5000,
+    "random_seed": 42,
+    "seed_hour": 24,
+    "fit_end": 72,
+    "end_hour": 168,
+    "fit_runs": 10,
+    "evaluation_runs": 50
+  },
+  "graph": {
+    "full_nodes": 456626,
+    "full_edges": 14855842,
+    "sample_nodes": 5000,
+    "sample_edges": 217777,
+    "sampling": "randomized breadth-first; topology only; not representative"
+  },
+  "rt_aggregate_matches_activity": true,
+  "input_sha256": {
+    "higgs-social_network.edgelist.gz": "8e5ea7642a018d9aab2dba0c6a59832c278cecf3895661ec8ff0d65360d40265",
+    "higgs-activity_time.txt.gz": "901b199716a23b0fc0371705e3ae9941b5c9493277aec65456abc4988674ad79",
+    "higgs-retweet_network.edgelist.gz": "4097edebd539043cfc62d9b4ba67676f79523f6dbe896d345fcc127dec3e936e"
+  },
+  "source_sha256": {
+    "diffusion/data.py": "daee4acbf477ca19f798238be3a7161e42312bc121f025b01d3c0ca8952b089d",
+    "diffusion/evaluation.py": "3dbe9111782d03566ba34cf00b06c8ade8a019082c50606f09c9fb387b3f5895",
+    "experiments/heuristic/models.py": "ebb1c0e1197533100b6157e5488dfe8c381c7771bc414de261553096406c9963",
+    "experiments/heuristic/experiment.py": "7b9e628137231eaf5fd91e60afeac07950083f2e7b2671bdd6c8c7e01939b43e",
+    "experiments/heuristic/analysis.ipynb": "5a4d105449db720cbf9323c48710360ac51c72cbba9a99c11e906c8110ee258e",
+    "uv.lock": "f64100c02edbe98ecfff782bd7cc26b0cfd33d51d8a38ac7a0a953163cc03f3b"
+  },
+  "packages": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "networkx": "3.7"
+  }
+}

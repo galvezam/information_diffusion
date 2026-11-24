@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+tmp/
+*.gz
+*.npz
+results/
+~$*
+.DS_Store
+.env
+.env.*
+**/.Codex.json
